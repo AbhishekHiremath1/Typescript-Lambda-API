@@ -9,7 +9,7 @@ A serverless API project using AWS Lambda, API Gateway, and Express.js.This proj
       - **bin/**: Contains the CDK application entry point.
         - `infra.ts`: Entry point for CDK app.
       - **lib/**: Contains the CDK stack definitions.
-        - `infrastructure-stack.ts`: Definition of the infrastructure stack.
+        - `infra-stack.ts`: Definition of the infrastructure stack.
       - `node_modules/`: Directory for package dependencies.
       - `package.json`: Project configuration and dependencies.
       - `tsconfig.json`: TypeScript configuration for the infra package.
@@ -22,7 +22,6 @@ A serverless API project using AWS Lambda, API Gateway, and Express.js.This proj
         - `handler.ts`: Additional handler functions.
         - `swagger.html`: Swagger UI documentation file.
         - `swagger.json`: Swagger API specification.
-      - `webpack.config.js`: Webpack configuration.
       - `package.json`: Project configuration and dependencies.
       - `tsconfig.json`: TypeScript configuration for the Lambda function package.
 - `node_modules/`: Directory for root project dependencies.
