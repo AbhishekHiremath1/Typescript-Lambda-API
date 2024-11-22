@@ -1,0 +1,6 @@
+packages/infra/*.ts
+packages/infra/*.d.ts
+
+# CDK asset staging directory
+packages/infra/.cdk.staging
+packages/infra/cdk.out

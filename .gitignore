@@ -40,7 +40,15 @@ build/Release
 
 # Dependency directories
 node_modules/
+packages/**/node_modules/
 jspm_packages/
+
+# CDK asset staging directory
+packages/infra/.cdk.staging
+packages/infra/cdk.out
+packages/infra/*.js
+packages/infra/!jest.config.js
+packages/infra/*.d.ts
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
