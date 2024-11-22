@@ -60,7 +60,7 @@ A serverless API project using AWS Lambda, API Gateway, and Express.js.This proj
     ```bash
    aws configure
    ```
-   Enter all the details required such as AWS_ACCESS_KEY, AWS_SECRECT_KEY_ID for your AWS account tomcomplete the AWS setup
+   Enter all the details required such as AWS_ACCESS_KEY, AWS_SECRECT_KEY_ID for your AWS account to complete the AWS setup
 
 3. **Set Up Environment Variables**
     ```bash
