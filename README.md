@@ -31,7 +31,6 @@ A serverless API project using AWS Lambda, API Gateway, and Express.js.This proj
 
 
 
-
 ## Features
 
 - **Serverless Architecture**: Utilizes AWS Lambda and API Gateway for scalable backend services.
@@ -88,6 +87,16 @@ A serverless API project using AWS Lambda, API Gateway, and Express.js.This proj
    cd packages/infra
    yarn build
    ```
+
+5. **Checking Swagger UI Documentation**
+    To easily check the Swagger UI documentation during development, Navigate to the `lambda-function` package directory and run below commands
+    ``` bash
+    cd packages/lambda-function
+    yarn ts-node src/swagger.ts
+    ```
+    The Express server will start running on port 3000.
+
+    Open your web browser and go to : [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
 
 ## Deloyment
 1. **Bootstrap the CDK environment**
