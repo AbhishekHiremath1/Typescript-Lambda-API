@@ -111,9 +111,9 @@ A serverless API project using AWS Lambda, API Gateway, and Express.js.This proj
 
 
 ## Accessing the API
-    After deploying the API using AWS CDK, you can access it via the API Gateway endpoint. The base URL for the API will be provided by AWS CloudFormation output. The endpoint typically looks like this
+After deploying the API using AWS CDK, you can access it via the API Gateway endpoint. The base URL for the API will be provided by AWS CloudFormation output. The endpoint typically looks like this
 
-    [https://<api-id>.execute-api.<region>.amazonaws.com/prod](https://<api-id>.execute-api.<region>.amazonaws.com/prod)
+[https://`<api-id>`.execute-api.`<region>`.amazonaws.com/prod](https://<api-id>.execute-api.<region>.amazonaws.com/prod)
 
 ## API Endpoints
 The following are the primary endpoints available in the API:
@@ -137,7 +137,7 @@ The raw Swagger/OpenAPI JSON specification file
 
 - **URL**: `/swagger.json`
 #### Example:
-[https://<api-id>.execute-api.<region>.amazonaws.com/prod/swagger.json](https://<api-id>.execute-api.<region>.amazonaws.com/prod/swagger.json)
+[https://`<api-id>`.execute-api.`<region>`.amazonaws.com/prod/swagger.json](https://<api-id>.execute-api.<region>.amazonaws.com/prod/swagger.json)
 
 ## Testing the API
  ### Using Curl
@@ -153,7 +153,7 @@ You can test the API endpoints using curl from the command line. Replace <api-ur
 #### Create new Get Request
 
 #### Enter request URL:
- [https://<api-id>.execute-api.<region>.amazonaws.com/prod/hello](https://<api-id>.execute-api.<region>.amazonaws.com/prod/hello) 
+ [https://`<api-id>`.execute-api.`<region>`.amazonaws.com/prod/hello](https://<api-id>.execute-api.<region>.amazonaws.com/prod/hello) 
 
 #### Add Query Parameters(if needed)
 **key**: name
