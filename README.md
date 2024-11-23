@@ -41,7 +41,7 @@ A serverless API project using AWS Lambda, API Gateway, and Express.js.This proj
 
 ## Prerequisites
 
-- Node.js and npm (or yarn)
+- Node.js(version 18) and npm (or yarn)
 - AWS CLI
 - AWS Account
 
