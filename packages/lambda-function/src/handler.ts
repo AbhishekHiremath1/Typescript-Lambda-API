@@ -14,7 +14,7 @@ export const handler = async (event: APIGatewayProxyEvent): Promise<APIGatewayPr
                 headers: {'Content-Type': 'Application/json'}
             };
         }
-    const name:string = event.queryStringParameters?.name || 'World';
+    const name:string = event.queryStringParameters?.name ?? 'World';
     return {
         statusCode: 200,
         body: JSON.stringify({ message: `Hello, ${name}` }),
